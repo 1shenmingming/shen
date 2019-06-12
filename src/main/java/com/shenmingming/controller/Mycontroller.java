@@ -47,6 +47,7 @@ public class Mycontroller {
    * @param dai
    * @return
    */
+  //sdaas
   @RequestMapping("list")
   public String list(Model model, @RequestParam(defaultValue = "1") int pageNum,
     @RequestParam(defaultValue = "") String name, @RequestParam(defaultValue = "") String author,
